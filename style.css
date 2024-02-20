@@ -4,91 +4,83 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
 body {
   background-color: #d74949;
+  height: 684px;
+  width: 1440px;
+  padding-top: -32px;
+  padding-left: -336px;
 }
 
 .container {
-  height: 90vh;
+  height: 615px;
+  width: 1110px;
   background-color: #f3f3f3;
   padding: 5px;
-  margin-left: 20vh;
-  margin-right: 20vh;
+  margin-left: 165px;
+  margin-right: 165px;
   align-items: center;
 }
 
 h1 {
   font-size: 14px;
   margin-top: 100px;
-  margin-left: 5%;
+  margin-left: 50px;
   width: 64px;
-  height: 16.41px;
-  color: black;
+  height: 16px;
+  color: #000000;
   font-weight: 300;
-  font-family: roboto;
-}
-
-footer {
-  background-color: #3a3a3a;
-  width: 100%;
-  height: 10vh;
-  color: #f3f3f3;
-  text-align: center;
-  align-items: center;
-  padding-top: 2%;
-  font-family: roboto;
-  font-weight: 700;
-  font-size: 14px;
   line-height: 16.41px;
 }
 
 h2 {
-  margin-left: 75%;
-  margin-right: 5%;
+  margin-left: 50px;
+  margin-right: 50px;
   text-align: right;
-  margin-top: 128px;
-  font-family: roboto;
+  margin-top: 28px;
   font-weight: 800;
   font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 0.7px;
 }
 
 p {
-  font-family: roboto;
+  width: 1009px;
+  height: 23px;
+  margin-left: 50px;
   font-weight: 700;
   font-size: 20px;
   line-height: 23.44px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 p span {
   color: #8f2727;
-  font-family: roboto;
   font-weight: 700;
   font-size: 20px;
   line-height: 23.44px;
   text-transform: uppercase;
 }
 
-p {
-  text-align: center;
-}
-
-.card {
-  width: 200px;
-  height: 300px;
-  margin-top: 75px;
-  margin-left: 5%;
-  box-shadow: #3a3a3a 0px 1px 0px 1px;
-  border-radius: 10px;
-}
-
 img {
+  margin-left: 50px;
   height: 300px;
   width: 200px;
-  margin-top: 2px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  transform: scale(1.1);
+  margin-top: 38px;
+}
+
+footer {
+  background-color: #3a3a3a;
+  width: 1440px;
+  height: 70px;
+  color: #f3f3f3;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+  text-align: center;
+  padding-top: 25px;
 }
